@@ -1,2 +1,4 @@
-# Fire-detector
-A heat-sensing fire detector linked to sprinklers for automatic activation.
+Smart IoT Fire Sprinkler Control System
+This project is a simple home fire protection system that uses three automatic sprinklers connected to a single microcontroller unit (MCU). The MCU is programmed to monitor heat levels and turn on the appropriate sprinkler only when dangerous heat is detected near it.
+The system works as follows: Each of the three sprinklers has its own heat sensor. These sensors continuously check the temperature in their area (Great Room, Bedroom, and Kitchen/Dining). If the heat rises above a safe threshold — indicating a possible fire — the MCU detects this and immediately opens the water valve for that specific sprinkler. This way, only the affected area gets water, saving resources and reducing unnecessary water damage elsewhere in the house.
+The MCU acts as the central brain, reading data from all three heat sensors and controlling the solenoid valves that release water to the sprinklers. The setup can use wired connections for reliability or wireless communication if preferred.
